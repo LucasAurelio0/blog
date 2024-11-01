@@ -3,4 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   background-color:#121212;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  text-align: justify;
 }
