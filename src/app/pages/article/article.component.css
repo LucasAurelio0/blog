@@ -1,0 +1,31 @@
+.article-container{
+    border: solid;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-cover > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.article-title > h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.article-body{
+  margin-top: 30px;
+}
+
+.article-body > p{
+  color: beige;
+  text-justify: auto;
+}

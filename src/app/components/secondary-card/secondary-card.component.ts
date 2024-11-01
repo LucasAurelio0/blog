@@ -1,9 +1,10 @@
 import { Component, Input } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-secondary-card',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './secondary-card.component.html',
   styleUrl: './secondary-card.component.css'
 })
@@ -14,4 +15,6 @@ export class SecondaryCardComponent {
   cardTitle: string = ''
   @Input()
   cardInfo: string = ''
+  @Input()
+  id:string = '0'
 }
