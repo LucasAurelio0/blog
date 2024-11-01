@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
+
+.menu-title-container{
+  color: #FFFFFF;
+}
+
+.menu-title-container > h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 200px;
+  display: flex;
+  justify-content: center;
+  font-family: "IM Fell DW Pica", serif;
+  font-weight: 200;
+}
+
+.menu-title-container > hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
