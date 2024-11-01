@@ -21,7 +21,7 @@
 .main-card-title,
 .main-card-description,
 .main-card-info {
-  width: 95%; /* Ajuste conforme necessário */
+  width: 95%;
   align-items: flex-start;
   text-align: left;
   margin-top: 10px;
@@ -32,10 +32,11 @@
   font-size: 10px;
   font-style: italic;
 }
-.main-card-title > h1 {
+.main-card-title > h2 {
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: bold;
+  font-size: xx-large;
 }
 
 .main-card-description {

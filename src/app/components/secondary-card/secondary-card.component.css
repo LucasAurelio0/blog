@@ -1,0 +1,39 @@
+.secondary-card-container {
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.secondary-card-content-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.secondary-card-image > img {
+  width: 200px;
+  height: 150px;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.secondary-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.secondary-card-info > span {
+  color: gray;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.secondary-card-title > h2 {
+  font-weight: bold;
+  font-size: xx-large;
+  margin-top: 20px;
+
+}
+
+.secondary-card-break > hr {
+  margin-top: 10px;
+}
