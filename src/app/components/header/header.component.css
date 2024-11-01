@@ -1,0 +1,9 @@
+.header-container > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-container > ul > li {
+  margin-right: 25px;
+  list-style: none;
+}
