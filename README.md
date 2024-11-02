@@ -1,27 +1,29 @@
-# AngularBlog
+# Today News -Music Blog Angular Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+This is an Angular project inspired by a design found on [Dribbble](https://dribbble.com/shots/18089191-Blog-Layout) and developed as part of a Digital Innovation One (DIO) bootcamp. The project was adapted to a music news blog, showcasing articles wich could talk about music releases, artist announcements, reviews and more. It includes a list of article cards that redirect users to a detailed view of the selected card, using Angular CLI, Components, Router, data binding with Input properties and dynamic data passing between components.
 
-## Development server
+## Table of Contents
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Future Improvements](#future-improvements)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Technologies Used
+- **Angular**: Framework for building the application's components and routing.
+- **TypeScript**: Primary programming language for Angular.
+- **CSS**: Custom styling for layout and component designs.
+- **HTML**: Template structure for Angular components.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+- **Music News Cards**: Displays a preview of a music news article with an image, title, information and short description.
+- **Detailed Article View**: When clicking on a card, the user is redirected to a detailed view, showing more information.
+- **Routing with Parameters**: Uses Angular Router to pass the article ID as a parameter and load the corresponding article data.
+- **Data Binding with `@Input` Properties**: Allows passing data from a parent to a child component, displaying custom information for each article.
+- **Redirecting usind routerLink**: The blog button redirects the user to the start page
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Future Improvements
 
-## Running unit tests
+- **Enhanced Design**: Think of more animations and effects for a more interactive UI.
+- **Responsive Design**: Ensure layout compatibility across various screen sizes and devices.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
